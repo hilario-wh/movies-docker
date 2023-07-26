@@ -1,0 +1,466 @@
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:52:11 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cbb0508030
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'cinema.wsgi.application'; 'cinema.wsgi' is not a package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 134535)
+spawned uWSGI worker 1 (pid: 134539, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:22 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:22 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/3] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:23 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:23 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/5] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/6] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:25 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134539|app: -1|req: -1/7] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 22:52:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:53:53 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563970cf52b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'cinema.wsgi.application'; 'cinema.wsgi' is not a package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 134672)
+spawned uWSGI worker 1 (pid: 134676, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:54:11 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 641 bytes} [Wed May 10 22:54:12 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/3] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:54:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:54:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/5] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:54:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134676|app: -1|req: -1/6] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:54:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:55:17 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ab598c9e00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'cinema.wsgi.application'; 'cinema.wsgi' is not a package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 134824)
+spawned uWSGI worker 1 (pid: 134828, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:56:08 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/cinema
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56343f7ebe00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'cinema'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 134892)
+spawned uWSGI worker 1 (pid: 134893, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 134893|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:56:17 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134893|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:56:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:57:12 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/cinema
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d17f624e00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'cinema'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 134990)
+spawned uWSGI worker 1 (pid: 134991, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 134991|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:57:18 2023] GET / => generated 21 bytes in 6 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134991|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:57:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134991|app: -1|req: -1/3] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:57:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 134991|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 17:57:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:57:37 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cad538be00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55cad538be00 pid: 135025 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 135025)
+spawned uWSGI worker 1 (pid: 135029, cores: 1)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:57:43 2023] GET / => generated 58293 bytes in 26 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:57:44 2023] GET / => generated 58293 bytes in 30 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:57:45 2023] GET / => generated 58293 bytes in 17 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:58:09 2023] GET / => generated 58293 bytes in 43 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:58:10 2023] GET / => generated 58293 bytes in 23 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/var/waps/entornos/crud-deploy/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'practicas-deploy.com'. You may need to add 'practicas-deploy.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 135029|app: 0|req: 6/6] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:58:11 2023] GET / => generated 58293 bytes in 34 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed May 10 17:58:16 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e605ca7e00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e605ca7e00 pid: 135113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 135113)
+spawned uWSGI worker 1 (pid: 135117, cores: 1)
+[pid: 135117|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 670 bytes} [Wed May 10 22:58:21 2023] GET / => generated 3239 bytes in 36 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 666 bytes} [Wed May 10 23:06:02 2023] GET / => generated 3239 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 666 bytes} [Thu May 11 14:38:07 2023] GET / => generated 3239 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 728 bytes} [Thu May 11 14:38:09 2023] GET /update/2/ => generated 2894 bytes in 11 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 5/5] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 14:38:12 2023] GET /update/3/ => generated 2904 bytes in 6 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 6/6] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:38:21 2023] GET / => generated 3239 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 14:38:23 2023] GET /update/4/ => generated 2899 bytes in 6 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 8/8] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:38:25 2023] GET / => generated 3239 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 9/9] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 14:38:26 2023] GET /update/2/ => generated 2894 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 10/10] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:38:28 2023] GET / => generated 3239 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 11/11] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 14:38:30 2023] GET /update/3/ => generated 2904 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 135117|app: 0|req: 12/12] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:38:31 2023] GET / => generated 3239 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Gracefully killing worker 1 (pid: 135117)...
+...gracefully killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/hilario/Documentos/github/practicas-deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock)
+running /var/waps/entornos/crud-deploy/bin/uwsgi
+[uWSGI] getting INI configuration from /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.ini
+*** Starting uWSGI 2.0.21 (64bit) on [Thu May 11 14:44:34 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55edf3406920
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55edf3406920 pid: 135113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 135113)
+spawned uWSGI worker 1 (pid: 146635, cores: 1)
+[pid: 146635|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:59:49 2023] GET / => generated 3239 bytes in 31 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 14:59:52 2023] GET /update/2/ => generated 2894 bytes in 16 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 953 bytes} [Thu May 11 14:59:54 2023] POST /update/2/ => generated 0 bytes in 5 msecs (HTTP/1.1 302) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 14:59:54 2023] GET / => generated 3239 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 5/5] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 15:00:01 2023] GET /update/3/ => generated 2904 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 6/6] 127.0.0.1 () {52 vars in 953 bytes} [Thu May 11 15:00:03 2023] POST /update/3/ => generated 0 bytes in 4 msecs (HTTP/1.1 302) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 15:00:03 2023] GET / => generated 3239 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 8/8] 127.0.0.1 () {46 vars in 785 bytes} [Thu May 11 15:00:06 2023] GET /update/4/ => generated 2899 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 9/9] 127.0.0.1 () {52 vars in 953 bytes} [Thu May 11 15:00:08 2023] POST /update/4/ => generated 0 bytes in 5 msecs (HTTP/1.1 302) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 10/10] 127.0.0.1 () {46 vars in 776 bytes} [Thu May 11 15:00:08 2023] GET / => generated 3239 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 11/11] 127.0.0.1 () {46 vars in 781 bytes} [Thu May 11 15:00:17 2023] GET /create/ => generated 2844 bytes in 31 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 12/12] 127.0.0.1 () {46 vars in 781 bytes} [Thu May 11 15:00:23 2023] GET /create/ => generated 2844 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 13/13] 127.0.0.1 () {52 vars in 947 bytes} [Thu May 11 15:00:44 2023] POST /create/ => generated 0 bytes in 10 msecs (HTTP/1.1 302) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 14/14] 127.0.0.1 () {46 vars in 774 bytes} [Thu May 11 15:00:44 2023] GET / => generated 3563 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 15/15] 127.0.0.1 () {46 vars in 781 bytes} [Thu May 11 15:01:47 2023] GET /create/ => generated 2844 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 16/16] 127.0.0.1 () {52 vars in 947 bytes} [Thu May 11 15:02:25 2023] POST /create/ => generated 0 bytes in 9 msecs (HTTP/1.1 302) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 17/17] 127.0.0.1 () {46 vars in 774 bytes} [Thu May 11 15:02:25 2023] GET / => generated 3903 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 18/18] 127.0.0.1 () {42 vars in 670 bytes} [Thu May 11 15:03:42 2023] GET / => generated 3903 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 146635|app: 0|req: 19/19] 127.0.0.1 () {44 vars in 728 bytes} [Thu May 11 15:03:46 2023] GET /create/ => generated 2844 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/hilario/Documentos/github/practicas-deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock)
+running /var/waps/entornos/crud-deploy/bin/uwsgi
+[uWSGI] getting INI configuration from /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.ini
+*** Starting uWSGI 2.0.21 (64bit) on [Sat May 20 07:58:43 2023] ***
+compiled with version: 9.4.0 on 10 May 2023 22:26:18
+os: Linux-5.15.0-71-generic #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+nodename: hilario-wisphub
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/hilario/Documentos/github/practicas-deploy
+detected binary path: /var/waps/entornos/crud-deploy/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/hilario/Documentos/github/practicas-deploy/
+your processes number limit is 62589
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/hilario/Documentos/github/practicas-deploy/deploy/practicas-deploy.sock fd 3
+Python version: 3.8.9 (default, Apr  9 2022, 10:26:30)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /var/waps/entornos/crud-deploy
+Set PythonHome to /var/waps/entornos/crud-deploy
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558c604c4920
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558c604c4920 pid: 135113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 135113)
+spawned uWSGI worker 1 (pid: 414809, cores: 1)

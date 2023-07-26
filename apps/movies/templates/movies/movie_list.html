@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Movies</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Release Year</th>
+        <th>Director</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for movie in movies %}
+        <tr>
+          <td>{{ movie.title }}</td>
+          <td>{{ movie.description }}</td>
+          <td>{{ movie.release_year }}</td>
+          <td>{{ movie.director }}</td>
+          <td>
+            <a href="{% url 'movie_update' pk=movie.pk %}" class="btn btn-warning btn-sm">Edit</a>
+            <a href="{% url 'movie_delete' pk=movie.pk %}" class="btn btn-danger btn-sm">Delete</a>
+          </td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">No movies yet.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <a href="{% url 'movie_create' %}" class="btn btn-primary">Add Movie</a>
+{% endblock %}
