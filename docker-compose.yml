@@ -1,0 +1,25 @@
+version: '3'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+#    depends_on:
+#      - nginx
+#    environment:
+#      - DB_HOST=db
+#      - DB_NAME=mydatabase
+#      - DB_USER=myuser
+#      - DB_PASSWORD=mypassword
+  nginx:
+    build:
+      context: .
+      dockerfile: ./compose/nginx/Dockerfile
+    ports:
+      - 8090:80
+    depends_on:
+      - django
