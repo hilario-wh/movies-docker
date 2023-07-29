@@ -1,20 +1,22 @@
 version: '3'
+
+volumes:
+    postgres_data: {}
+
 services:
+
   django:
     build:
       context: .
       dockerfile: ./compose/django/Dockerfile
-    volumes:
-      - .:/code
     ports:
       - 8000:8000
-#    depends_on:
-#      - nginx
-#    environment:
-#      - DB_HOST=db
-#      - DB_NAME=mydatabase
-#      - DB_USER=myuser
-#      - DB_PASSWORD=mypassword
+    depends_on:
+      - db
+    env_file:
+      - ./.env
+    command: ["sh", "-c", "python manage.py migrate && supervisord -n"]
+
   nginx:
     build:
       context: .
@@ -23,3 +25,10 @@ services:
       - 8090:80
     depends_on:
       - django
+
+  db:
+    image: postgres:latest
+    env_file:
+      - ./.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data

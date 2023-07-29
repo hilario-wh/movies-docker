@@ -34,6 +34,7 @@ venv.bak/
 
 #Logs
 .logs
+*.log
 
 # Ignore collectstatic's directories
 .static/*
