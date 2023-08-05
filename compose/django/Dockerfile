@@ -25,4 +25,4 @@ RUN cp /app/deploy/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 EXPOSE 8000
 
 # Ejecuta Supervisor como proceso principal en el contenedor
-CMD ["supervisord", "-n"]
+CMD ["supervisord", "-n", "-c"]
